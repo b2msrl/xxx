@@ -1,14 +1,14 @@
 {
-    "name": "@@@vendor/@@@package_name",
-    "description": "@@@package_description",
-    "keywords": [@@@keywords],
+    "name": "padosoft/xxx",
+    "description": "xxx",
+    "keywords": ["xxx"],
     "license": "MIT",
     "type": "library",
 	"authors": [
         {
-            "name": "@@@author",
-            "email": "@@@emailauthor",
-            "homepage" : "@@@siteauthor",
+            "name": "Padosoft",
+            "email": "helpdesk@padosoft.com",
+            "homepage" : "http://www.padosoft.com",
             "role" : "Developer"
         }
     ],
