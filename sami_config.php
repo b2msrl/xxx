@@ -19,10 +19,10 @@ $versions = GitVersionCollection::create($dir)
 
 return new Sami($iterator,array(
     'theme'                => 'default',
-    'title'                => 'Workbench API',
+    'title'                => '@@@package_name API',
     'versions'             => $versions,
-    'build_dir'            => 'Y:/build/%version%',
-    'cache_dir'            => 'Y:/cache/%version%',
+    'build_dir'            => '@@@doc_destination/build/%version%',
+    'cache_dir'            => '@@@doc_destination/cache/%version%',
     'default_opened_level' => 2,
 ));
 
